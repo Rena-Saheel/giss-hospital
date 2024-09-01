@@ -671,3 +671,180 @@ ul a i:last-child {
 .copyright {
     padding-top: 5px;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+
+    
+    header {
+        padding: 5px;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+    
+    nav .logo img {
+        width: 150px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 20px;
+    }
+
+    nav .emergency {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .hero-buttons .btn {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .middle {
+        padding: 20px;
+        height: auto;
+    }
+
+    .middle-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .middle-text p {
+        font-size: 1rem;
+    }
+
+    .num p {
+        font-size: 40px;
+    }
+
+    .details p {
+        font-size: 16px;
+    }
+
+    .img img {
+        width: 80%;
+        top: 0;
+    }
+
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxes .box {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .wheelchair img {
+        width: 100%;
+    }
+
+    .group img {
+        margin-top: 50px;
+    }
+
+    .last1-buttons .btn {
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+
+    .end {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .end-content {
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .end-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .subscribe-input {
+        width: 200px;
+    }
+
+    .subscribe-button {
+        margin-left: -20px;
+    }
+
+    footer {
+        position: relative;
+    }
+
+    .foot-panel1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        height: auto;
+    }
+
+    .foot-panel1 .logo img {
+        margin-left: 0;
+        margin-top: 0;
+        width: 150px;
+    }
+
+    .foot-buttons {
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .foot-buttons .btn {
+        margin-right: 0;
+    }
+
+    .foot-panel2 {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .foot-panel3 {
+        text-align: center;
+    }
+
+    .foot-panel4 {
+        text-align: center;
+    }
+
+}
